@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { TempUnit } from "./TempUnit.js";
+import { CurrentDay } from "./CurrentDay.js";
 export default function Info(props) {
   const [temp, setTemp] = useState(null);
   const [wind, setWind] = useState(null);
@@ -26,6 +27,7 @@ export default function Info(props) {
   return (
     <>
           <TempUnit temp={temp} city={props.city} />
+          <CurrentDay/>
       <ul>
         <li>Wind speed: {wind}</li>
         <li>Humidity: {humidity}%</li>
