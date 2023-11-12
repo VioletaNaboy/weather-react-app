@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Info from "./Info";
+import Info from "../Info/Info.js";
 export default function Search(props) {
   const [city, setCity] = useState("");
   const [showInfo, setShowInfo] = useState(false);
