@@ -1,0 +1,24 @@
+.searchInput {
+ height: 54px;
+ width: 340px;
+ background: rgba(104, 104, 118, 0.267);
+ border:none;
+ border-radius: 22px;
+ padding: 24px;
+ color: white;
+ font-weight: 600;
+ font-size: large;
+ margin-right: 32px;
+}
+
+.searchBtn {
+    height: 54px;
+    width: 240px;
+    border: none;
+    border-radius: 22px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: large;
+    text-transform: uppercase;
+}
